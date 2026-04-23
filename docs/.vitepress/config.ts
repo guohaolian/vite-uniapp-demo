@@ -89,7 +89,7 @@ export default withPwa(defineConfig({
       ],
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/nutui-uniapp/nutui-uniapp' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/guohaolian/vite-uniapp-demo' }],
 
     editLink: {
       pattern: 'https://github.com/nutui-uniapp/nutui-uniapp/edit/main/docs/:path',
