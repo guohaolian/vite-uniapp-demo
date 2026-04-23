@@ -1,0 +1,35 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "@dcloudio/types",
+      "@uni-helper/uni-app-types",
+      "nutui-uniapp/global.d.ts"
+    ],
+    "sourceMap": true
+  },
+  "vueCompilerOptions": {
+    "plugins": [
+      "@uni-helper/uni-app-types/volar-plugin"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/pages/demo/business/category/data.js"
+  ]
+}

@@ -1,0 +1,8 @@
+# Generated
+auto-imports.d.ts
+
+# Cache
+.vitepress/cache
+
+# Bundle
+dev-dist

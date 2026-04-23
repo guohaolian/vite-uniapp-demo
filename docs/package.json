@@ -1,0 +1,27 @@
+{
+  "name": "@nutui-uniapp/docs",
+  "type": "module",
+  "version": "1.11.2",
+  "private": true,
+  "description": "NutUI for uniapp docs",
+  "keywords": [
+    "nutui",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "vitepress dev --port 9999",
+    "build": "vitepress build",
+    "serve": "vitepress serve --port 6173"
+  },
+  "dependencies": {
+    "nutui-uniapp": "^1.11.2",
+    "vue": "~3.4.38"
+  },
+  "devDependencies": {
+    "@vite-pwa/vitepress": "^0.5.3",
+    "@vue/tsconfig": "^0.7.0",
+    "unocss": "^66.0.0",
+    "unplugin-auto-import": "^19.0.0",
+    "vitepress": "^1.6.3"
+  }
+}

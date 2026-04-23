@@ -1,0 +1,23 @@
+{
+  "name": "nutui-uniapp-workspace",
+  "version": "1.11.2",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "docs",
+    "example"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n docs,example -c cyan,green \"npm run dev:docs\" \"npm run dev:example\"",
+    "dev:docs": "npm run dev --workspace @nutui-uniapp/docs",
+    "dev:example": "npm run dev:h5 --workspace @nutui-uniapp/example",
+    "build": "node scripts/build-unified.mjs",
+    "build:docs": "npm run build --workspace @nutui-uniapp/docs",
+    "build:example": "npm run build:h5 --workspace @nutui-uniapp/example",
+    "serve:docs": "npm run serve --workspace @nutui-uniapp/docs",
+    "type-check": "npm run type-check --workspace @nutui-uniapp/example"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
