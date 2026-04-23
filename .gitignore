@@ -11,10 +11,6 @@ docs/.vitepress/dist/
 example/dist/
 example/unpackage/
 
-# Local generated files
-docs/.vitepress/cache/
-docs/auto-imports.d.ts
-example/src/auto-imports.d.ts
-example/src/components.d.ts
-example/src/pages.json
-example/uni-pages.d.ts
+
+
+
