@@ -6,7 +6,7 @@ import { pwa } from './scripts/pwa'
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
-  title: 'nutui-uniapp',
+  title: 'viteuniapp',
   description: '京东风格的移动端组件库，完全适配uni-app',
   lastUpdated: true,
   head: [
