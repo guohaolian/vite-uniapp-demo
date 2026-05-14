@@ -92,7 +92,7 @@ export default withPwa(defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/guohaolian/vite-uniapp-demo' }],
 
     editLink: {
-      pattern: 'https://github.com/nutui-uniapp/nutui-uniapp/edit/main/docs/:path',
+      pattern: 'https://github.com/guohaolian/vite-uniapp-demo/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 
